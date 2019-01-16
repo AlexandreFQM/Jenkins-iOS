@@ -6,6 +6,7 @@ target 'TruthOrDare' do
   use_frameworks!
 
   # Pods for TruthOrDare
+  pod 'Alamofire', '~> 5.0.0.beta.1
 
   target 'TruthOrDareTests' do
     inherit! :search_paths
