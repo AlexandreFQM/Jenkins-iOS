@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     "Have you ever let someone take the blame for something you did?"
   ]
   
+  let x = "abc"
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
