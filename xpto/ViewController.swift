@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
   //Truths
   private let truths = [
-    "What are you most self-conscious about?",
+    "What are you most self-conscious about?s",
     "What would you do if you were the sex for a month?",
     "What is the most expensive thing you have stolen?",
     "What is the most childish thing you still do?",
