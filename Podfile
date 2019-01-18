@@ -8,14 +8,4 @@ target 'xpto' do
   # Pods for xpto
   pod 'Charts'
 
-  target 'xptoTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'xptoUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
