@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B864A0223EDAA03B7541896 /* Pods-xptoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xptoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xptoUITests/Pods-xptoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B0516F687D0EEDA810687F3 /* Pods_xpto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xpto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		737EFE65B460F71D2BBCDE90 /* Pods-xpto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xpto.release.xcconfig"; path = "Pods/Target Support Files/Pods-xpto/Pods-xpto.release.xcconfig"; sourceTree = "<group>"; };
 		8429747D0678D93AC21D7348 /* Pods-xpto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xpto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xpto/Pods-xpto.debug.xcconfig"; sourceTree = "<group>"; };
@@ -28,14 +27,7 @@
 		AC6E80CA21EF8DF800E6AFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6E80CD21EF8DF800E6AFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6E80CF21EF8DF800E6AFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC6E80D821EF8DF800E6AFF1 /* xptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xptoTests.swift; sourceTree = "<group>"; };
-		AC6E80DA21EF8DF800E6AFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC6E80E321EF8DF800E6AFF1 /* xptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xptoUITests.swift; sourceTree = "<group>"; };
-		AC6E80E521EF8DF800E6AFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF441D67B1522C7E7F86A2AA /* Pods-xptoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xptoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xptoTests/Pods-xptoTests.release.xcconfig"; sourceTree = "<group>"; };
-		C4D004B6BBD17583D81285B1 /* Pods-xptoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xptoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xptoUITests/Pods-xptoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D588D8F94D8DFAE30CA2A306 /* Pods_xptoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xptoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECA0EC9B689A2BA152D3E5E8 /* Pods-xptoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xptoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xptoTests/Pods-xptoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +47,6 @@
 			children = (
 				8429747D0678D93AC21D7348 /* Pods-xpto.debug.xcconfig */,
 				737EFE65B460F71D2BBCDE90 /* Pods-xpto.release.xcconfig */,
-				ECA0EC9B689A2BA152D3E5E8 /* Pods-xptoTests.debug.xcconfig */,
-				AF441D67B1522C7E7F86A2AA /* Pods-xptoTests.release.xcconfig */,
-				C4D004B6BBD17583D81285B1 /* Pods-xptoUITests.debug.xcconfig */,
-				1B864A0223EDAA03B7541896 /* Pods-xptoUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -67,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				AC6E80C221EF8DF700E6AFF1 /* xpto */,
-				AC6E80D721EF8DF800E6AFF1 /* xptoTests */,
-				AC6E80E221EF8DF800E6AFF1 /* xptoUITests */,
 				AC6E80C121EF8DF700E6AFF1 /* Products */,
 				A46BF6AEFF6BB37EB73E6508 /* Pods */,
 				EC7537CB03296D44DA1EAF94 /* Frameworks */,
@@ -94,24 +80,6 @@
 				AC6E80CF21EF8DF800E6AFF1 /* Info.plist */,
 			);
 			path = xpto;
-			sourceTree = "<group>";
-		};
-		AC6E80D721EF8DF800E6AFF1 /* xptoTests */ = {
-			isa = PBXGroup;
-			children = (
-				AC6E80D821EF8DF800E6AFF1 /* xptoTests.swift */,
-				AC6E80DA21EF8DF800E6AFF1 /* Info.plist */,
-			);
-			path = xptoTests;
-			sourceTree = "<group>";
-		};
-		AC6E80E221EF8DF800E6AFF1 /* xptoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AC6E80E321EF8DF800E6AFF1 /* xptoUITests.swift */,
-				AC6E80E521EF8DF800E6AFF1 /* Info.plist */,
-			);
-			path = xptoUITests;
 			sourceTree = "<group>";
 		};
 		EC7537CB03296D44DA1EAF94 /* Frameworks */ = {
