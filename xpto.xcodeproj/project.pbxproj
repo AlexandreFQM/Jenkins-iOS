@@ -7,34 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6871057BCB2F3FFC5C2D4757 /* Pods_xptoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D588D8F94D8DFAE30CA2A306 /* Pods_xptoTests.framework */; };
-		845384FD2D933D8C437A5795 /* Pods_xptoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9981A8DB4C37920EAFDD8DB4 /* Pods_xptoUITests.framework */; };
 		AC6E80C421EF8DF700E6AFF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E80C321EF8DF700E6AFF1 /* AppDelegate.swift */; };
 		AC6E80C621EF8DF700E6AFF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E80C521EF8DF700E6AFF1 /* ViewController.swift */; };
 		AC6E80C921EF8DF700E6AFF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6E80C721EF8DF700E6AFF1 /* Main.storyboard */; };
 		AC6E80CB21EF8DF800E6AFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6E80CA21EF8DF800E6AFF1 /* Assets.xcassets */; };
 		AC6E80CE21EF8DF800E6AFF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6E80CC21EF8DF800E6AFF1 /* LaunchScreen.storyboard */; };
-		AC6E80D921EF8DF800E6AFF1 /* xptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E80D821EF8DF800E6AFF1 /* xptoTests.swift */; };
-		AC6E80E421EF8DF800E6AFF1 /* xptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E80E321EF8DF800E6AFF1 /* xptoUITests.swift */; };
 		F11C3BB8C4D4D4F4196DFA24 /* Pods_xpto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0516F687D0EEDA810687F3 /* Pods_xpto.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AC6E80D521EF8DF800E6AFF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC6E80B821EF8DF700E6AFF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC6E80BF21EF8DF700E6AFF1;
-			remoteInfo = xpto;
-		};
-		AC6E80E021EF8DF800E6AFF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC6E80B821EF8DF700E6AFF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC6E80BF21EF8DF700E6AFF1;
-			remoteInfo = xpto;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1B864A0223EDAA03B7541896 /* Pods-xptoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xptoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xptoUITests/Pods-xptoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,10 +28,8 @@
 		AC6E80CA21EF8DF800E6AFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6E80CD21EF8DF800E6AFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6E80CF21EF8DF800E6AFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC6E80D421EF8DF800E6AFF1 /* xptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6E80D821EF8DF800E6AFF1 /* xptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xptoTests.swift; sourceTree = "<group>"; };
 		AC6E80DA21EF8DF800E6AFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC6E80DF21EF8DF800E6AFF1 /* xptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6E80E321EF8DF800E6AFF1 /* xptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xptoUITests.swift; sourceTree = "<group>"; };
 		AC6E80E521EF8DF800E6AFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF441D67B1522C7E7F86A2AA /* Pods-xptoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xptoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-xptoTests/Pods-xptoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,22 +44,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11C3BB8C4D4D4F4196DFA24 /* Pods_xpto.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC6E80D121EF8DF800E6AFF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6871057BCB2F3FFC5C2D4757 /* Pods_xptoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC6E80DC21EF8DF800E6AFF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				845384FD2D933D8C437A5795 /* Pods_xptoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				AC6E80C021EF8DF700E6AFF1 /* xpto.app */,
-				AC6E80D421EF8DF800E6AFF1 /* xptoTests.xctest */,
-				AC6E80DF21EF8DF800E6AFF1 /* xptoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,44 +146,6 @@
 			productReference = AC6E80C021EF8DF700E6AFF1 /* xpto.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC6E80D321EF8DF800E6AFF1 /* xptoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC6E80EB21EF8DF800E6AFF1 /* Build configuration list for PBXNativeTarget "xptoTests" */;
-			buildPhases = (
-				66E97B14A9ABC101415BC9AB /* [CP] Check Pods Manifest.lock */,
-				AC6E80D021EF8DF800E6AFF1 /* Sources */,
-				AC6E80D121EF8DF800E6AFF1 /* Frameworks */,
-				AC6E80D221EF8DF800E6AFF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC6E80D621EF8DF800E6AFF1 /* PBXTargetDependency */,
-			);
-			name = xptoTests;
-			productName = xptoTests;
-			productReference = AC6E80D421EF8DF800E6AFF1 /* xptoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AC6E80DE21EF8DF800E6AFF1 /* xptoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC6E80EE21EF8DF800E6AFF1 /* Build configuration list for PBXNativeTarget "xptoUITests" */;
-			buildPhases = (
-				8C5D0F1A10FFA37CC71F1373 /* [CP] Check Pods Manifest.lock */,
-				AC6E80DB21EF8DF800E6AFF1 /* Sources */,
-				AC6E80DC21EF8DF800E6AFF1 /* Frameworks */,
-				AC6E80DD21EF8DF800E6AFF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC6E80E121EF8DF800E6AFF1 /* PBXTargetDependency */,
-			);
-			name = xptoUITests;
-			productName = xptoUITests;
-			productReference = AC6E80DF21EF8DF800E6AFF1 /* xptoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,14 +158,6 @@
 				TargetAttributes = {
 					AC6E80BF21EF8DF700E6AFF1 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					AC6E80D321EF8DF800E6AFF1 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = AC6E80BF21EF8DF700E6AFF1;
-					};
-					AC6E80DE21EF8DF800E6AFF1 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = AC6E80BF21EF8DF700E6AFF1;
 					};
 				};
 			};
@@ -262,8 +175,6 @@
 			projectRoot = "";
 			targets = (
 				AC6E80BF21EF8DF700E6AFF1 /* xpto */,
-				AC6E80D321EF8DF800E6AFF1 /* xptoTests */,
-				AC6E80DE21EF8DF800E6AFF1 /* xptoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,41 +190,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC6E80D221EF8DF800E6AFF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC6E80DD21EF8DF800E6AFF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		66E97B14A9ABC101415BC9AB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-xptoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		68C4331ED6B3357F7E60B34C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,24 +209,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xpto/Pods-xpto-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C5D0F1A10FFA37CC71F1373 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-xptoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A13B003211A738FDE80EA5BC /* [CP] Check Pods Manifest.lock */ = {
@@ -380,36 +241,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC6E80D021EF8DF800E6AFF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC6E80D921EF8DF800E6AFF1 /* xptoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC6E80DB21EF8DF800E6AFF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC6E80E421EF8DF800E6AFF1 /* xptoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AC6E80D621EF8DF800E6AFF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC6E80BF21EF8DF700E6AFF1 /* xpto */;
-			targetProxy = AC6E80D521EF8DF800E6AFF1 /* PBXContainerItemProxy */;
-		};
-		AC6E80E121EF8DF800E6AFF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC6E80BF21EF8DF700E6AFF1 /* xpto */;
-			targetProxy = AC6E80E021EF8DF800E6AFF1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC6E80C721EF8DF700E6AFF1 /* Main.storyboard */ = {
@@ -585,92 +417,6 @@
 			};
 			name = Release;
 		};
-		AC6E80EC21EF8DF800E6AFF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECA0EC9B689A2BA152D3E5E8 /* Pods-xptoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9N6R94MS45;
-				INFOPLIST_FILE = xptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.furtech.xptoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xpto.app/xpto";
-			};
-			name = Debug;
-		};
-		AC6E80ED21EF8DF800E6AFF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF441D67B1522C7E7F86A2AA /* Pods-xptoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9N6R94MS45;
-				INFOPLIST_FILE = xptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.furtech.xptoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xpto.app/xpto";
-			};
-			name = Release;
-		};
-		AC6E80EF21EF8DF800E6AFF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D004B6BBD17583D81285B1 /* Pods-xptoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9N6R94MS45;
-				INFOPLIST_FILE = xptoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.furtech.xptoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = xpto;
-			};
-			name = Debug;
-		};
-		AC6E80F021EF8DF800E6AFF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B864A0223EDAA03B7541896 /* Pods-xptoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9N6R94MS45;
-				INFOPLIST_FILE = xptoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.furtech.xptoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = xpto;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,24 +434,6 @@
 			buildConfigurations = (
 				AC6E80E921EF8DF800E6AFF1 /* Debug */,
 				AC6E80EA21EF8DF800E6AFF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC6E80EB21EF8DF800E6AFF1 /* Build configuration list for PBXNativeTarget "xptoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC6E80EC21EF8DF800E6AFF1 /* Debug */,
-				AC6E80ED21EF8DF800E6AFF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC6E80EE21EF8DF800E6AFF1 /* Build configuration list for PBXNativeTarget "xptoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC6E80EF21EF8DF800E6AFF1 /* Debug */,
-				AC6E80F021EF8DF800E6AFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
