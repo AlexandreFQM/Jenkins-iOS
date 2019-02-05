@@ -1,16 +1,169 @@
 PODS:
-  - SwiftyJSON (4.2.0)
+  - AWSAuth (2.8.4):
+    - AWSAuth/Core (= 2.8.4)
+    - AWSAuth/FacebookSignIn (= 2.8.4)
+    - AWSAuth/GoogleSignIn (= 2.8.4)
+    - AWSAuth/UI (= 2.8.4)
+    - AWSAuth/UserPoolsSignIn (= 2.8.4)
+  - AWSAuth/Core (2.8.4):
+    - AWSAuthCore (= 2.8.4)
+  - AWSAuth/FacebookSignIn (2.8.4):
+    - AWSFacebookSignIn (= 2.8.4)
+  - AWSAuth/GoogleSignIn (2.8.4):
+    - AWSGoogleSignIn (= 2.8.4)
+  - AWSAuth/UI (2.8.4):
+    - AWSAuthUI (= 2.8.4)
+  - AWSAuth/UserPoolsSignIn (2.8.4):
+    - AWSUserPoolsSignIn (= 2.8.4)
+  - AWSAuthCore (2.8.4):
+    - AWSCore (= 2.8.4)
+  - AWSAuthUI (2.8.4):
+    - AWSAuthCore (= 2.8.4)
+    - AWSCore (= 2.8.4)
+  - AWSCognitoIdentityProvider (2.8.4):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.8.4)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.8.4)
+  - AWSFacebookSignIn (2.8.4):
+    - AWSAuthCore (= 2.8.4)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+  - AWSGoogleSignIn (2.8.4):
+    - AWSAuthCore (= 2.8.4)
+  - AWSMobileClient (2.8.4):
+    - AWSAuthCore (= 2.8.4)
+    - AWSCognitoIdentityProvider (= 2.8.4)
+  - AWSPinpoint (2.8.4):
+    - AWSCore (= 2.8.4)
+  - AWSUserPoolsSignIn (2.8.4):
+    - AWSAuthCore (= 2.8.4)
+    - AWSCognitoIdentityProvider (= 2.8.4)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - FBSDKCoreKit (4.40.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.40.0):
+    - FBSDKCoreKit
+  - Firebase (5.16.0):
+    - Firebase/Core (= 5.16.0)
+  - Firebase/Core (5.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.5.0)
+  - Firebase/CoreOnly (5.16.0):
+    - FirebaseCore (= 5.2.0)
+  - FirebaseAnalytics (5.5.0):
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.4)
+    - GoogleAppMeasurement (= 5.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.2.0):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.4.0):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - GoogleAppMeasurement (5.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.7):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.7)
+  - GoogleUtilities/Logger (5.3.7):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.7):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.7)"
+  - GoogleUtilities/Reachability (5.3.7):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.7):
+    - GoogleUtilities/Logger
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
 
 DEPENDENCIES:
-  - SwiftyJSON (~> 4.0)
+  - AWSAuth
+  - AWSCore
+  - AWSMobileClient
+  - AWSPinpoint
+  - Crashlytics
+  - Fabric
+  - Firebase
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - SwiftyJSON
+    - AWSAuth
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSFacebookSignIn
+    - AWSGoogleSignIn
+    - AWSMobileClient
+    - AWSPinpoint
+    - AWSUserPoolsSignIn
+    - Bolts
+    - Crashlytics
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
 
 SPEC CHECKSUMS:
-  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  AWSAuth: 26dd1bd0c0ca24ef93b2adfa4dfc93c3c8a19ffb
+  AWSAuthCore: ac2536f54f73a2914c236e266cbec02a49f57d69
+  AWSAuthUI: dd68ce1af153c0f5aa7521c0bd89a633d0a24cc5
+  AWSCognitoIdentityProvider: ba1858e7524b29254172ae333e1f96ddc93507dc
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 734b0d67c2c77f6edae9e5520431a37310ea4193
+  AWSFacebookSignIn: b84d2995b928f58080a4606abcfc4cb0566d7bde
+  AWSGoogleSignIn: da35414db1ee248fcc9ff6d9d4de223059015dd7
+  AWSMobileClient: 59072ca49e82706c6d958f7a08e4a285d7197af1
+  AWSPinpoint: 289a3f2e6cd25a387283ee47467c57654b9f4182
+  AWSUserPoolsSignIn: 1eb61512db85bf0d043f79eda77de0ee09035bcf
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FBSDKCoreKit: ae214474b25033399c131dc81d258e412582a2ba
+  FBSDKLoginKit: 7a1e411d46acc8834588eca437daf34de42e1d52
+  Firebase: 749a8ff4962f9d8c79dda1966de20f6f77583d67
+  FirebaseAnalytics: d35d47c03c50c73c14a7fd31463c5775843e78a9
+  FirebaseCore: ea2d1816723ef21492b8e9113303e1350db5e08c
+  FirebaseInstanceID: 97ea7a5dca9afd72c79bfcdddb7a44aa1cbb42a1
+  GoogleAppMeasurement: 621f3bc6211d5ba548debe01fafad30cf5ab6859
+  GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
-PODFILE CHECKSUM: 565e048b08969c7da69ef1785fa9a78c1fe807ce
+PODFILE CHECKSUM: 36a9cd38c24c4a3f00181ef0e50cb4816e2dccb5
 
 COCOAPODS: 1.5.3
